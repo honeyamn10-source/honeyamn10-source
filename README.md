@@ -18,9 +18,11 @@ Retail sales, held carts and inventory, built on the same transaction engine as 
 
 Receipt capture, card spending and monthly reports for a renovation business. **In development.** [Code and configuration →](https://github.com/honeyamn10-source/classy-renovation#readme)
 
+### Client work
+
 <a href="https://github.com/honeyamn10-source/Akal-school-boha"><img src="https://github.com/honeyamn10-source/honeyamn10-source/blob/main/assets/Akal-school-boha.svg?raw=true" width="100%" alt="Akal School Boha — school website project."/></a>
 
-A school website covering admissions, facilities and learning resources. [Explore the website project →](https://github.com/honeyamn10-source/Akal-school-boha#readme)
+A website built for an Akal School client, covering admissions, facilities and learning resources. This is client work, not a product offered for resale. [Explore the website project →](https://github.com/honeyamn10-source/Akal-school-boha#readme)
 
 ### On the bench
 
