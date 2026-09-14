@@ -19,7 +19,7 @@ Building tools for the working day: orders, inventory and receipts. TypeScript, 
 1. `pos` — Jawa Restaurant
 2. `pos-retail` — Jawa Retail
 3. `classy-renovation` — Classy Renovations
-4. `Akal-school-boha` — School website
+4. `Akal-school-boha` — Client website
 
 Four pins keep the main work prominent. Add research or prototypes later if they become a priority.
 
@@ -37,8 +37,6 @@ These are prepared values, not confirmation that GitHub metadata has been change
 | `voice-order-system` | Browser voice-order prototype with speech recognition, AI conversations and pickup-order capture. | voice-assistant, speech-recognition, javascript, ordering-system, prototype |
 | `hoeyeditor` | Early architecture scaffold for turning documents into structured, editable representations. | document-editor, document-processing, prototype |
 | `Akal-school-boha` | School website with admissions interfaces, facilities information and student learning resources. | school-website, education, html, css, javascript |
-| `GORAYA-IMI` | Advisory website prototype with interactive scenarios and demonstration policy content. | website, html, css, javascript, prototype |
-| `GORAYA-nns` | Quote-comparison portal prototype with local estimates, provider cards and printable summaries. | quote-calculator, html, javascript, prototype |
 
 Set each repository's description and topics using the gear next to **About** on its repository page.
 
