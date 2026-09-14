@@ -1,59 +1,38 @@
-<div align="center">
+![Bittu Sharma — Software for the working day](https://github.com/honeyamn10-source/honeyamn10-source/blob/main/assets/profile-banner.svg?raw=true)
 
-![Bittu Sharma — Practical software. Thoughtful design.](assets/profile-banner.svg)
+I'm **Bittu**. I build web applications around everyday business tasks: taking an order, finding stock, sorting receipts. Right now, most of my attention is on the Jawa restaurant and retail tools.
 
-**Business applications · Web development · AI-assisted workflows**
+[Repositories](https://github.com/honeyamn10-source?tab=repositories) · [Project notes](PORTFOLIO.md)
 
-[Explore projects](https://github.com/honeyamn10-source?tab=repositories) &nbsp; / &nbsp; [Jawa Restaurant](https://github.com/honeyamn10-source/pos) &nbsp; / &nbsp; [Jawa Retail](https://github.com/honeyamn10-source/pos-retail)
+### Selected work
 
-</div>
+<a href="https://github.com/honeyamn10-source/pos"><img src="https://github.com/honeyamn10-source/honeyamn10-source/blob/main/assets/pos.svg?raw=true" width="100%" alt="Jawa Restaurant — controlled pilot. Orders, tables, kitchen."/></a>
 
-## About me
+A self-hosted restaurant register with tables, kitchen workflows and pickup requests. **Controlled pilot.** [Setup and release limits →](https://github.com/honeyamn10-source/pos#readme)
 
-I'm Bittu Sharma. I build practical software for business operations, from restaurant and retail workflows to expense management and document tools.
+<a href="https://github.com/honeyamn10-source/pos-retail"><img src="https://github.com/honeyamn10-source/honeyamn10-source/blob/main/assets/pos-retail.svg?raw=true" width="100%" alt="Jawa Retail — controlled pilot. Retail register, held carts and inventory."/></a>
 
-My focus is on clear interfaces, useful automation, and software that is easier to install and understand. This profile brings together my public projects and experiments.
+Retail sales, held carts and inventory, built on the same transaction engine as the restaurant edition. **Controlled pilot.** [Explore the project →](https://github.com/honeyamn10-source/pos-retail#readme)
 
-## Featured work
+<a href="https://github.com/honeyamn10-source/classy-renovation"><img src="https://github.com/honeyamn10-source/honeyamn10-source/blob/main/assets/classy-renovation.svg?raw=true" width="100%" alt="Classy Renovations — in development. Receipt and expense management."/></a>
 
-| Project | Purpose | Stage |
-| :--- | :--- | :--- |
-| **[Jawa Restaurant](https://github.com/honeyamn10-source/pos)** | Self-hosted restaurant register with tables, kitchen workflows, inventory, and online pickup requests. | Controlled pilot |
-| **[Jawa Retail](https://github.com/honeyamn10-source/pos-retail)** | Retail register with held carts, inventory, and store reporting. | Controlled pilot |
-| **[Classy Renovations](https://github.com/honeyamn10-source/classy-renovation)** | Business expense tracking, receipt processing, and monthly reporting. | In development |
-| **[punch.trade](https://github.com/honeyamn10-source/punch.trade)** | Self-hosted strategy research, backtesting, and browser-based signal tools. | Research and development |
-| **[Voice Order System](https://github.com/honeyamn10-source/voice-order-system)** | Browser voice interactions for collecting pickup orders. | Prototype |
-| **[Document Digital Twin Editor](https://github.com/honeyamn10-source/hoeyeditor)** | Architecture exploration for structured, editable documents. | Early scaffold |
+Receipt capture, card spending and monthly reports for a renovation business. **In development.** [Code and configuration →](https://github.com/honeyamn10-source/classy-renovation#readme)
 
-Project READMEs describe setup requirements and known limitations. Pilot and prototype labels reflect work that still needs deployment or integration validation.
+<a href="https://github.com/honeyamn10-source/Akal-school-boha"><img src="https://github.com/honeyamn10-source/honeyamn10-source/blob/main/assets/Akal-school-boha.svg?raw=true" width="100%" alt="Akal School Boha — school website project."/></a>
 
-## Technologies across my projects
+A school website covering admissions, facilities and learning resources. [Explore the website project →](https://github.com/honeyamn10-source/Akal-school-boha#readme)
 
-| Area | Technologies |
-| :--- | :--- |
-| Frontend | TypeScript, JavaScript, React, Next.js, Tailwind CSS |
-| Backend | Node.js, Python, FastAPI |
-| Data and background work | PostgreSQL, Prisma, SQLite, Redis |
-| Development and delivery | Git, GitHub Actions, Docker |
+### On the bench
 
-## What I'm working on
+[Voice ordering](https://github.com/honeyamn10-source/voice-order-system) · [Trading research](https://github.com/honeyamn10-source/punch.trade) · [More prototypes](PORTFOLIO.md)
 
-- Refining restaurant and retail operations software.
-- Improving installation guides and project documentation.
-- Exploring AI-assisted voice, receipt, and document workflows.
+### Tools I work with
 
-## More web projects
-
-- **[Akal School Boha](https://github.com/honeyamn10-source/Akal-school-boha)** — school information, admissions interfaces, and learning resources.
-- **[Goraya Advisory Website](https://github.com/honeyamn10-source/GORAYA-IMI)** — an advisory website prototype with interactive scenarios.
-- **[Goraya Quote Portal](https://github.com/honeyamn10-source/GORAYA-nns)** — a quote-comparison interface with locally simulated estimates.
-
-## Project feedback
-
-For questions or reproducible bugs, use the relevant repository's issue tracker when enabled. Include the project version, expected behavior, and steps to reproduce.
+**Interfaces** — TypeScript, JavaScript, React, Next.js, Tailwind CSS  
+**Services** — Node.js, Python, FastAPI  
+**Data** — PostgreSQL, SQLite, Prisma, Redis  
+**Delivery** — Git, GitHub Actions, Docker
 
 ---
 
-<div align="center">
-<sub>Building useful tools, one clear workflow at a time.</sub>
-</div>
+Project status and setup details live in each README. The artwork above identifies the projects; it isn't a screenshot of the applications.

@@ -2,9 +2,9 @@
 
 The profile README and banner are committed in this repository. The account settings below must be applied through GitHub's interface or an authenticated account-management API; committing this document does not apply them.
 
-## Activate the profile README
+## Profile repository
 
-Rename this public repository from `-honeyamn10-source` to `honeyamn10-source` in **Settings → General → Repository name → Rename**. The name must match the account username exactly. Keep `README.md` at the root and the banner in `assets/profile-banner.svg`.
+The repository name now matches `honeyamn10-source`. The public root README and local artwork are in place.
 
 ## Display name
 
@@ -12,16 +12,16 @@ Bittu Sharma
 
 ## Bio
 
-Building practical business software with TypeScript, Python & AI. Working on POS systems, expense tools and workflow automation.
+Building tools for the working day: orders, inventory and receipts. TypeScript, Python and a focus on small-business workflows.
 
 ## Recommended pinned repositories, in order
 
 1. `pos` — Jawa Restaurant
 2. `pos-retail` — Jawa Retail
 3. `classy-renovation` — Classy Renovations
-4. `punch.trade` — Trading research workstation
-5. `voice-order-system` — Voice Order System
-6. `Akal-school-boha` — School website
+4. `Akal-school-boha` — School website
+
+Four pins keep the main work prominent. Add research or prototypes later if they become a priority.
 
 ## Repository descriptions and topics
 

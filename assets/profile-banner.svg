@@ -1,14 +1,14 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-<title id="title">Bittu Sharma — Practical software. Thoughtful design.</title>
-<desc id="desc">Dark navy banner with cyan accents and a BS monogram. Business applications, web development, and AI workflows.</desc>
-<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#0b1220"/><stop offset="1" stop-color="#172d43"/></linearGradient><linearGradient id="accent"><stop stop-color="#5eead4"/><stop offset="1" stop-color="#60a5fa"/></linearGradient></defs>
-<rect width="1200" height="300" rx="20" fill="url(#bg)"/>
-<path d="M860 0V300M920 0V300M980 0V300M1040 0V300M1100 0V300M1160 0V300M820 60H1200M820 120H1200M820 180H1200M820 240H1200" stroke="#ffffff" stroke-opacity=".04"/>
-<rect x="55" y="48" width="42" height="5" rx="2.5" fill="url(#accent)"/>
-<text x="55" y="109" fill="#f8fafc" font-family="Arial, Helvetica, sans-serif" font-size="49" font-weight="700">Bittu Sharma</text>
-<text x="57" y="157" fill="#b8c9da" font-family="Arial, Helvetica, sans-serif" font-size="25">Practical software. Thoughtful design.</text>
-<text x="57" y="223" fill="#5eead4" font-family="Arial, Helvetica, sans-serif" font-size="17" letter-spacing="1.5">BUSINESS APPLICATIONS / WEB / AI WORKFLOWS</text>
-<rect x="935" y="75" width="148" height="148" rx="32" fill="#0b1728" stroke="#5eead4" stroke-opacity=".45"/>
-<text x="1009" y="170" text-anchor="middle" fill="#e2e8f0" font-family="Arial, Helvetica, sans-serif" font-size="54" font-weight="700">BS</text>
-<circle cx="1080" cy="78" r="8" fill="#5eead4"/>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="t d">
+<title id="t">Bittu Sharma — Software for the working day</title><desc id="d">An ivory and charcoal editorial cover with oversized typography and an orange geometric emblem.</desc>
+<rect width="1200" height="480" fill="#f1efe7"/><rect x="828" width="372" height="480" fill="#252724"/>
+<text x="48" y="48" font-family="Arial,sans-serif" font-size="16" letter-spacing="3" fill="#57594e">BITTU SHARMA / SELECTED WORK</text>
+<path d="M48 75H780" stroke="#c7c8bc"/>
+<text x="43" y="170" font-family="Arial,sans-serif" font-size="77" font-weight="700" letter-spacing="-4" fill="#252724">Software for</text>
+<text x="43" y="253" font-family="Arial,sans-serif" font-size="77" font-weight="700" letter-spacing="-4" fill="#252724">the working day.</text>
+<text x="48" y="312" font-family="Arial,sans-serif" font-size="22" fill="#57594e">Orders, inventory, receipts. The details matter.</text>
+<path d="M48 374H780" stroke="#c7c8bc"/>
+<text x="48" y="418" font-family="Arial,sans-serif" font-size="16" letter-spacing="1" fill="#252724">WEB APPLICATIONS + BUSINESS TOOLS</text>
+<circle cx="1014" cy="216" r="113" fill="#ed633d"/>
+<path d="M1014 70V362M868 216H1160" stroke="#252724" stroke-width="21"/>
+<circle cx="1014" cy="216" r="43" fill="#f1efe7"/>
+<text x="865" y="419" font-family="Arial,sans-serif" font-size="15" letter-spacing="3" fill="#f1efe7">DESIGN / BUILD / REFINE</text></svg>
