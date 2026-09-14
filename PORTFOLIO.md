@@ -7,12 +7,10 @@ The profile highlights four projects. This index keeps the other public work eas
 | [Jawa Restaurant](https://github.com/honeyamn10-source/pos) | Featured | Restaurant POS controlled pilot |
 | [Jawa Retail](https://github.com/honeyamn10-source/pos-retail) | Featured | Retail POS controlled pilot; shared engine with Restaurant |
 | [Classy Renovations](https://github.com/honeyamn10-source/classy-renovation) | Featured, in development | Expense and receipt workflows |
-| [Akal School Boha](https://github.com/honeyamn10-source/Akal-school-boha) | Featured | School website |
+| [Akal School Boha](https://github.com/honeyamn10-source/Akal-school-boha) | Client work | School website maintained for a client |
 | [Voice Order System](https://github.com/honeyamn10-source/voice-order-system) | Experiment | Browser voice ordering; deployment wiring needs attention |
 | [punch.trade](https://github.com/honeyamn10-source/punch.trade) | Research | Backtesting and strategy tools; test failures need investigation |
 | [Document Twin Editor](https://github.com/honeyamn10-source/hoeyeditor) | Early exploration | Minimal scaffold; dependency installation failed in reviewed CI |
-| [Goraya Advisory](https://github.com/honeyamn10-source/GORAYA-IMI) | Web concept | Interactive scenarios and static sample policy content |
-| [Goraya Quote Portal](https://github.com/honeyamn10-source/GORAYA-nns) | Web concept | Locally simulated estimates, not verified carrier quotes |
 
 ## Reading project status
 
