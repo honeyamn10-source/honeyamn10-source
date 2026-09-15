@@ -42,4 +42,12 @@ Do not buy stars, create fake activity, copy another project's identity, or send
 
 ## Existing products
 
-Passing a documentation or deployment check does not certify the application. The POS editions remain controlled pilots. Classy Renovations has a lockfile/dependency-install failure to resolve. The trading research project has failing tests. These remain engineering work, not reasons to remove checks or claim a completed commercial release.
+Passing a documentation or deployment check does not certify the application. The POS editions remain controlled pilots. Classy Renovations' lockfile and server-build failures have been repaired; live database and provider workflows still require acceptance testing. The trading research project has failing tests. These remain engineering work, not reasons to remove checks or claim a completed commercial release.
+
+## Engineering validation — September 2026
+
+- **Hoey Editor:** removed an unused, unavailable dependency pin, corrected OCR confidence conversion, and fixed CI import resolution. Eight backend tests pass in [GitHub Actions](https://github.com/honeyamn10-source/hoeyeditor/actions/runs/35012220607), including numeric and text OCR confidence cases. OCR results in these regression tests are mocked.
+- **Voice Order System:** added the missing Vercel API entry point and explicit module configuration. Replaced placeholder CI with syntax and handler checks. [API checks pass](https://github.com/honeyamn10-source/voice-order-system/actions/runs/35012018969). Live speech, model access and order persistence remain unverified.
+- **Classy Renovations:** corrected ESLint configuration, missing bcrypt types, asynchronous cookies, decimal rendering, report response types, Prisma metadata and worker model access, and Redis dependency duplication. The standalone production build passes locally. Health and login return 200; unauthenticated expense, card and report API requests return 401. [Server CI](https://github.com/honeyamn10-source/classy-renovation/actions/runs/35012769939) records the remote result. Static Pages templates were replaced with server-build validation.
+
+These checks do not establish production readiness. Dependency security updates, configured service integration, deployment and customer acceptance remain separate work.
