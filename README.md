@@ -56,6 +56,20 @@ Retail sales, held carts and inventory, built on the same transaction engine as 
 
 Receipt capture, card spending and monthly reports for a renovation business. **In development.** [Code and configuration →](https://github.com/honeyamn10-source/classy-renovation#readme)
 
+### 🧰 Open-source libraries
+
+<a href="https://github.com/honeyamn10-source/pyagent"><img src="https://github.com/honeyamn10-source/honeyamn10-source/raw/main/assets/pyagent.svg?raw=true" width="100%" alt="pyagent — zero-dependency LLM agent framework."/></a>
+
+The smallest agent loop you will actually want to use: `@tool`, an Agent, memory, retries — standard library only. [Build an agent in 10 lines →](https://github.com/honeyamn10-source/pyagent#readme)
+
+<a href="https://github.com/honeyamn10-source/envguard"><img src="https://github.com/honeyamn10-source/honeyamn10-source/raw/main/assets/envguard.svg?raw=true" width="100%" alt="envguard — dotenv linter and secret scanner."/></a>
+
+Audit your `.env` files and scan any codebase for leaked secrets before it's too late. Zero dependencies. [See the rules →](https://github.com/honeyamn10-source/envguard#readme)
+
+<a href="https://github.com/honeyamn10-source/tickstore"><img src="https://github.com/honeyamn10-source/honeyamn10-source/raw/main/assets/tickstore.svg?raw=true" width="100%" alt="tickstore — dependency-free OHLCV market data."/></a>
+
+Fetch, cache, resample Reuters-grade OHLCV data and compute SMA/EMA/RSI/ATR/VWAP — pure Python, no pandas. [Companion to punch.trade →](https://github.com/honeyamn10-source/tickstore#readme)
+
 ### 🧪 Client work
 
 <a href="https://github.com/honeyamn10-source/Akal-school-boha"><img src="https://github.com/honeyamn10-source/honeyamn10-source/raw/main/assets/Akal-school-boha.svg?raw=true" width="100%" alt="Akal School Boha — school website project."/></a>
@@ -64,7 +78,7 @@ A website built for an Akal School client, covering admissions, facilities and l
 
 ### 🔭 On the bench
 
-[Voice ordering](https://github.com/honeyamn10-source/voice-order-system) · [Trading research](https://github.com/honeyamn10-source/punch.trade) · [More prototypes](https://github.com/honeyamn10-source/honeyamn10-source/blob/main/PORTFOLIO.md)
+[Voice ordering](https://github.com/honeyamn10-source/voice-order-system) · [Trading research](https://github.com/honeyamn10-source/punch.trade) · [Document Digital Twins](https://github.com/honeyamn10-source/hoeyeditor) · [More](https://github.com/honeyamn10-source/honeyamn10-source/blob/main/PORTFOLIO.md)
 
 ---
 
