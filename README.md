@@ -1,100 +1,148 @@
-<p align="center">
-  <img src="https://github.com/honeyamn10-source/honeyamn10-source/raw/main/assets/profile-banner.svg" alt="Bittu Sharma — Software for the working day" width="100%" />
-</p>
+<div align="center">
 
-<p align="center">
-  <b>Hi, I'm Bittu Sharma</b> — I build web applications around everyday business tasks: taking an order, finding stock, sorting receipts.
-</p>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:8E2DE2,100:4A00E0&height=220&section=header&text=Bittu%20Sharma&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Independent%20Developer%20%E2%80%A2%20TypeScript%20%2B%20Python%20%2B%20Applied%20AI&descAlignY=55&descSize=18" width="100%"/>
 
-<p align="center">
-  <a href="https://github.com/honeyamn10-source?tab=repositories"><img src="https://img.shields.io/badge/Projects-12-green" alt="Projects"></a>
-  <a href="https://github.com/honeyamn10-source"><img src="https://img.shields.io/github/followers/honeyamn10-source?style=social" alt="GitHub followers"></a>
-  <a href="https://github.com/honeyamn10-source"><img src="https://img.shields.io/github/stars/honeyamn10-source?style=social" alt="GitHub stars"></a>
-  <a href="https://github.com/honeyamn10-source/honeyamn10-source/blob/main/PORTFOLIO.md"><img src="https://img.shields.io/badge/Notes-Portfolio-ff69b4" alt="Portfolio"></a>
-</p>
 
-<p align="center">
-  Celebrating the small machine that keeps a business running: the counter, the kitchen ticket, the stack of receipts. My work turns those paper rituals into software real people use every day.
-</p>
+<a href="https://github.com/honeyamn10-source"><img src="https://img.shields.io/badge/GitHub-honeyamn10--source-8E2DE2?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="mailto:bittu.sharma.dev@gmail.com"><img src="https://img.shields.io/badge/Contact-Email-4A00E0?style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
----
 
-### 🧰 Toolbox
+</div>
 
-**Interfaces** &nbsp;·&nbsp; TypeScript &nbsp;·&nbsp; JavaScript &nbsp;·&nbsp; React &nbsp;·&nbsp; Next.js &nbsp;·&nbsp; Tailwind CSS
 
-**Services** &nbsp;·&nbsp; Node.js &nbsp;·&nbsp; Python &nbsp;·&nbsp; FastAPI
+<br/>
 
-**Data** &nbsp;·&nbsp; PostgreSQL &nbsp;·&nbsp; SQLite &nbsp;·&nbsp; Prisma &nbsp;·&nbsp; Redis
 
-**Delivery** &nbsp;·&nbsp; Git &nbsp;·&nbsp; GitHub Actions &nbsp;·&nbsp; Docker &nbsp;·&nbsp; Kubernetes
+## 🧭 Who I Am
 
-<p align="center">
-  <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/>
-  <img src="https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
-  <img src="https://img.shields.io/badge/-React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React"/>
-  <img src="https://img.shields.io/badge/-Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js"/>
-  <img src="https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
-  <img src="https://img.shields.io/badge/-FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI"/>
-  <img src="https://img.shields.io/badge/-PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL"/>
-  <img src="https://img.shields.io/badge/-Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"/>
-</p>
 
----
+I build **practical software that runs real working days** — from a small business register to autonomous trading agents. Creator of **Jawa POS**. I care about honest engineering: systems that are secure by default, well-documented, and built to actually be used — not just demoed.
 
-### 🏆 Selected work
 
-<a href="https://github.com/honeyamn10-source/pos"><img src="https://github.com/honeyamn10-source/honeyamn10-source/raw/main/assets/pos.svg?raw=true" width="100%" alt="Jawa Restaurant — controlled pilot. Orders, tables, kitchen."/></a>
+<br/>
 
-A self-hosted restaurant register with tables, kitchen workflows and pickup requests. **Controlled pilot.** [Setup and release limits →](https://github.com/honeyamn10-source/pos#readme)
 
-<a href="https://github.com/honeyamn10-source/pos-retail"><img src="https://github.com/honeyamn10-source/honeyamn10-source/raw/main/assets/pos-retail.svg?raw=true" width="100%" alt="Jawa Retail — controlled pilot. Retail register, held carts and inventory."/></a>
+## 🧬 Stack
 
-Retail sales, held carts and inventory, built on the same transaction engine as the restaurant edition. **Controlled pilot.** [Explore the project →](https://github.com/honeyamn10-source/pos-retail#readme)
 
-<a href="https://github.com/honeyamn10-source/classy-renovation"><img src="https://github.com/honeyamn10-source/honeyamn10-source/raw/main/assets/classy-renovation.svg?raw=true" width="100%" alt="Classy Renovations — in development. Receipt and expense management."/></a>
+<div align="center">
 
-Receipt capture, card spending and monthly reports for a renovation business. **In development.** [Code and configuration →](https://github.com/honeyamn10-source/classy-renovation#readme)
 
-### 🧰 Open-source libraries
+<img src="https://skillicons.dev/icons?i=ts,js,py,react,nextjs,nodejs,fastapi,postgres,sqlite,redis,docker,kubernetes,git,githubactions,tailwind&theme=dark" />
 
-<a href="https://github.com/honeyamn10-source/pyagent"><img src="https://github.com/honeyamn10-source/honeyamn10-source/raw/main/assets/pyagent.svg?raw=true" width="100%" alt="pyagent — zero-dependency LLM agent framework."/></a>
 
-The smallest agent loop you will actually want to use: `@tool`, an Agent, memory, retries — standard library only. [Build an agent in 10 lines →](https://github.com/honeyamn10-source/pyagent#readme)
+</div>
 
-<a href="https://github.com/honeyamn10-source/envguard"><img src="https://github.com/honeyamn10-source/honeyamn10-source/raw/main/assets/envguard.svg?raw=true" width="100%" alt="envguard — dotenv linter and secret scanner."/></a>
 
-Audit your `.env` files and scan any codebase for leaked secrets before it's too late. Zero dependencies. [See the rules →](https://github.com/honeyamn10-source/envguard#readme)
+<br/>
 
-<a href="https://github.com/honeyamn10-source/tickstore"><img src="https://github.com/honeyamn10-source/honeyamn10-source/raw/main/assets/tickstore.svg?raw=true" width="100%" alt="tickstore — dependency-free OHLCV market data."/></a>
 
-Fetch, cache, resample Reuters-grade OHLCV data and compute SMA/EMA/RSI/ATR/VWAP — pure Python, no pandas. [Companion to punch.trade →](https://github.com/honeyamn10-source/tickstore#readme)
+## 🗂️ Featured Work
 
-### 🧪 Client work
 
-<a href="https://github.com/honeyamn10-source/Akal-school-boha"><img src="https://github.com/honeyamn10-source/honeyamn10-source/raw/main/assets/Akal-school-boha.svg?raw=true" width="100%" alt="Akal School Boha — school website project."/></a>
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
 
-A website built for an Akal School client, covering admissions, facilities and learning resources. This is client work, not a product offered for resale. [Explore the website project →](https://github.com/honeyamn10-source/Akal-school-boha#readme)
 
-### 🔭 On the bench
+### 📈 [punch.trade](https://github.com/honeyamn10-source/punch.trade)
+Self-hosted strategy research platform — honest backtesting, risk-gated execution, browser-based signal tools.
+`Python`
 
-[Galaxy — decentralized AI event detection](https://github.com/honeyamn10-source/galaxy_mvp) · [Voice ordering](https://github.com/honeyamn10-source/voice-order-system) · [Trading research](https://github.com/honeyamn10-source/punch.trade) · [Document Digital Twins](https://github.com/honeyamn10-source/hoeyeditor) · [More](https://github.com/honeyamn10-source/honeyamn10-source/blob/main/PORTFOLIO.md)
 
----
+</td>
+<td width="50%" valign="top">
 
-### ⚡ GitHub stats
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=honeyamn10-source&show_icons=true&theme=transparent&show=reviews&hide_border=true" alt="GitHub stats" width="49%"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=honeyamn10-source&layout=compact&theme=transparent&hide_border=true" alt="Top languages" width="45%"/>
-</p>
+### 🌐 [galaxy-mvp](https://github.com/honeyamn10-source/galaxy-mvp)
+Decentralized AI event-detection platform spanning edge inference, swarm mesh, and federated learning.
+`Python`
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=honeyamn10-source&theme=flat&no-frame=true&row=2&column=4&margin-w=10" alt="GitHub trophies" width="100%"/>
-</p>
 
----
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-> Project status and setup details live in each README. The artwork above identifies the projects; it isn't a screenshot of the applications.
 
-<sub>Last updated 2026 · Built with pride in TypeScript, Python, and lots of coffee ☕</sub>
+### 🧾 [pos-retail](https://github.com/honeyamn10-source/pos-retail)
+Self-hosted retail register: cash sales, held carts, live inventory — built for small business counters.
+`TypeScript`
+
+
+</td>
+<td width="50%" valign="top">
+
+
+### 🎙️ [voice-order-system](https://github.com/honeyamn10-source/voice-order-system)
+Browser voice-ordering prototype: speech recognition, conversational AI, pickup-order capture.
+`HTML / JS`
+
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+
+### 🏫 [Akal-school-boha](https://github.com/honeyamn10-source/Akal-school-boha)
+Full school website — admissions, faculty, and student resources. Client project.
+`HTML`
+
+
+</td>
+<td width="50%" valign="top">
+
+
+### 💰 [classy-renovation](https://github.com/honeyamn10-source/classy-renovation)
+Business expense manager with receipt processing, card tracking, and monthly reporting.
+`TypeScript`
+
+
+</td>
+</tr>
+</table>
+
+
+<br/>
+
+
+## 📊 Activity
+
+
+<div align="center">
+
+
+<img src="https://github-readme-stats.vercel.app/api?username=honeyamn10-source&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117" height="165"/>
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=honeyamn10-source&theme=radical&hide_border=true&background=0D1117" height="165"/>
+
+
+<br/>
+
+
+<img src="https://github-profile-trophy.vercel.app/?username=honeyamn10-source&theme=radical&no-frame=true&row=1&margin-w=15&column=6" />
+
+
+</div>
+
+
+<br/>
+
+
+## 🐍 Contribution Snake
+
+
+<div align="center">
+<img src="https://raw.githubusercontent.com/honeyamn10-source/honeyamn10-source/output/github-contribution-grid-snake.svg" width="100%"/>
+</div>
+
+
+> To generate this file: add `Platane/snk` as a GitHub Action on your profile repo (I can write that workflow file for you too — just ask).
+
+
+<br/>
+
+
+<div align="center">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:4A00E0,100:8E2DE2&height=100&section=footer" width="100%"/>
+</div>
