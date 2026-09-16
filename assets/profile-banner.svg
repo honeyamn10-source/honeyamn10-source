@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="480" viewBox="0 0 1200 480" role="img" aria-labelledby="t d">
+<title id="t">Bittu Sharma — Software for the working day</title><desc id="d">An ivory and charcoal editorial cover with oversized typography and an orange geometric emblem.</desc>
+<rect width="1200" height="480" fill="#f1efe7"/><rect x="828" width="372" height="480" fill="#252724"/>
+<text x="48" y="48" font-family="Arial,sans-serif" font-size="16" letter-spacing="3" fill="#57594e">BITTU SHARMA / SELECTED WORK</text>
+<path d="M48 75H780" stroke="#c7c8bc"/>
+<text x="43" y="170" font-family="Arial,sans-serif" font-size="77" font-weight="700" letter-spacing="-4" fill="#252724">Software for</text>
+<text x="43" y="253" font-family="Arial,sans-serif" font-size="77" font-weight="700" letter-spacing="-4" fill="#252724">the working day.</text>
+<text x="48" y="312" font-family="Arial,sans-serif" font-size="22" fill="#57594e">Orders, inventory, receipts. The details matter.</text>
+<path d="M48 374H780" stroke="#c7c8bc"/>
+<text x="48" y="418" font-family="Arial,sans-serif" font-size="16" letter-spacing="1" fill="#252724">WEB APPLICATIONS + BUSINESS TOOLS</text>
+<circle cx="1014" cy="216" r="113" fill="#ed633d"/>
+<path d="M1014 70V362M868 216H1160" stroke="#252724" stroke-width="21"/>
+<circle cx="1014" cy="216" r="43" fill="#f1efe7"/>
+<text x="865" y="419" font-family="Arial,sans-serif" font-size="15" letter-spacing="3" fill="#f1efe7">DESIGN / BUILD / REFINE</text></svg>
