@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate README links
+        run: |
+          # Check that all repo links are valid
+          grep -oE 'https://github.com/honeyamn10-source/[^)]+' README.md | sort -u | while read url; do
+            curl -sf "$url" >/dev/null || echo "Broken link: $url"
+          done
+      - name: Check for personal emails
+        run: |
+          if git log --all --format='%ae' | grep -v 'noreply@users.noreply.github.com' | grep -v 'dependabot\[bot\]' | grep -v '^$' | grep -q .; then
+            echo "Found personal emails in history"
+            exit 1
+          fi
