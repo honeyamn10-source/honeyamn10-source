@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/honeyamn10-source?tab=repositories"><img src="https://img.shields.io/badge/Projects-8%2B-2ea44f" alt="Projects"></a>
+  <a href="https://github.com/honeyamn10-source?tab=repositories"><img src="https://img.shields.io/badge/Projects-12-green" alt="Projects"></a>
   <a href="https://github.com/honeyamn10-source"><img src="https://img.shields.io/github/followers/honeyamn10-source?style=social" alt="GitHub followers"></a>
   <a href="https://github.com/honeyamn10-source"><img src="https://img.shields.io/github/stars/honeyamn10-source?style=social" alt="GitHub stars"></a>
   <a href="https://github.com/honeyamn10-source/honeyamn10-source/blob/main/PORTFOLIO.md"><img src="https://img.shields.io/badge/Notes-Portfolio-ff69b4" alt="Portfolio"></a>
@@ -78,7 +78,7 @@ A website built for an Akal School client, covering admissions, facilities and l
 
 ### 🔭 On the bench
 
-[Voice ordering](https://github.com/honeyamn10-source/voice-order-system) · [Trading research](https://github.com/honeyamn10-source/punch.trade) · [Document Digital Twins](https://github.com/honeyamn10-source/hoeyeditor) · [More](https://github.com/honeyamn10-source/honeyamn10-source/blob/main/PORTFOLIO.md)
+[Galaxy — decentralized AI event detection](https://github.com/honeyamn10-source/galaxy_mvp) · [Voice ordering](https://github.com/honeyamn10-source/voice-order-system) · [Trading research](https://github.com/honeyamn10-source/punch.trade) · [Document Digital Twins](https://github.com/honeyamn10-source/hoeyeditor) · [More](https://github.com/honeyamn10-source/honeyamn10-source/blob/main/PORTFOLIO.md)
 
 ---
 
