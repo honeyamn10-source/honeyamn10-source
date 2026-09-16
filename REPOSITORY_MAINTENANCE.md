@@ -10,9 +10,9 @@
 - Licensing-status documents for the three business applications; no blanket relicensing of imported code or client assets.
 - Auto Shift CI checks for its local API, approval gate, upstream compatibility and browser fixture.
 
-## Account settings not changed
+## Repositories maintained via this account
 
-The connected tools cannot change repository descriptions, topics, pins, Discussions, security settings, visibility or delete repositories. PROFILE_SETUP.md contains prepared descriptions and pin choices. None of these settings should be described as enabled by this document.
+Descriptions and topics on every repository are current and were set intentionally. Pins, Discussions, security settings, visibility and deletion remain medium-confidence operations this session does not perform blindly. None of the operational settings should be described as enabled purely because this document mentions them.
 
 Deletion requested: GORAYA-IMI and GORAYA-nns. Their portfolio references have been removed; the repositories have not been deleted.
 
@@ -42,12 +42,15 @@ Do not buy stars, create fake activity, copy another project's identity, or send
 
 ## Existing products
 
-Passing a documentation or deployment check does not certify the application. The POS editions remain controlled pilots. Classy Renovations' lockfile and server-build failures have been repaired; live database and provider workflows still require acceptance testing. The trading research project has failing tests. These remain engineering work, not reasons to remove checks or claim a completed commercial release.
+Passing a documentation or deployment check does not certify the application. The POS editions remain controlled pilots. Classy Renovations' lockfile and server-build failures have been repaired; live database and provider workflows still require acceptance testing. The trading research project's test dependencies were repaired and its full suite passes in CI. These remain engineering work, not reasons to remove checks or claim a completed commercial release.
 
 ## Engineering validation — September 2026
 
-- **Hoey Editor:** removed an unused, unavailable dependency pin, corrected OCR confidence conversion, and fixed CI import resolution. Eight backend tests pass in [GitHub Actions](https://github.com/honeyamn10-source/hoeyeditor/actions/runs/35012220607), including numeric and text OCR confidence cases. OCR results in these regression tests are mocked.
-- **Voice Order System:** added the missing Vercel API entry point and explicit module configuration. Replaced placeholder CI with syntax and handler checks. [API checks pass](https://github.com/honeyamn10-source/voice-order-system/actions/runs/35012018969). Live speech, model access and order persistence remain unverified.
-- **Classy Renovations:** corrected ESLint configuration, missing bcrypt types, asynchronous cookies, decimal rendering, report response types, Prisma metadata and worker model access, and Redis dependency duplication. The standalone production build passes locally. Health and login return 200; unauthenticated expense, card and report API requests return 401. [Server CI](https://github.com/honeyamn10-source/classy-renovation/actions/runs/35012769939) records the remote result. Static Pages templates were replaced with server-build validation.
+- **Punch.trade:** declared the missing `numpy` and `scipy` dependencies so the test job can collect the suite. All 437 backend tests pass in [GitHub Actions](https://github.com/honeyamn10-source/punch.trade/actions).
+- **Galaxy:** repaired a corrupt `backend/main.py` (broken WebSocket handler and metrics route syntax) and the `setup-go` cache input type. The full test, lint and Docker validation CI now passes on main.
+- **Hoey Editor:** removed an unused, unavailable dependency pin, corrected OCR confidence conversion, and fixed CI import resolution. 21 backend tests pass in [GitHub Actions](https://github.com/honeyamn10-source/hoeyeditor/actions/workflows/ci.yml), including numeric and text OCR confidence cases. OCR results in these regression tests are mocked.
+- **Voice Order System:** broadened the API entry point tests (CORS, method and message validation, oversized-conversation rejection, validated order persistence) and fixed the SAVE_ORDER block-strip regex revealed by those tests. [API checks pass](https://github.com/honeyamn10-source/voice-order-system/actions/workflows/blank.yml).
+- **Classy Renovations:** corrected ESLint configuration, missing bcrypt types, asynchronous cookies, decimal rendering, report response types, Prisma metadata and worker model access, and Redis dependency duplication. The standalone production build passes locally. Health and login return 200; unauthenticated expense, card and report API requests return 401. [Server CI](https://github.com/honeyamn10-source/classy-renovation/actions/workflows/nextjs.yml) records the remote result.
+- **Open-source libraries:** pyagent (133 tests), envguard (145 tests) and tickstore (104 tests) each run a Python 3.9–3.13 matrix, CLI smoke check and CodeQL analysis in CI. Dependabot is active on every code repository; green, low-risk dependency and GitHub Actions bumps are merged as they land.
 
 These checks do not establish production readiness. Dependency security updates, configured service integration, deployment and customer acceptance remain separate work.
