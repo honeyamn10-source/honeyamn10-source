@@ -98,11 +98,11 @@ Self-hosted strategy research platform — honest backtesting, risk-gated execut
 <td width="50%" valign="top">
 
 
-### 🌐 [galaxy-mvp](https://github.com/honeyamn10-source/galaxy-mvp)
+### 🌐 [galaxy-mvp](https://github.com/honeyamn10-source/galaxy_mvp)
 Decentralized AI event-detection platform spanning edge inference, swarm mesh, and federated learning.
 
 
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/github/stars/honeyamn10-source/galaxy-mvp?style=flat-square&color=8E2DE2"/>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white"/> <img src="https://img.shields.io/github/stars/honeyamn10-source/galaxy_mvp?style=flat-square&color=8E2DE2"/>
 
 
 <details>
@@ -184,7 +184,7 @@ Browser voice-ordering prototype: speech recognition, conversational AI, pickup-
 | Repo | Description |
 |---|---|
 | [**jawa-quant-computer**](https://github.com/honeyamn10-source/jawa-quant-computer) | Autonomous AI computer — Python asyncio agent with browser, shell, and filesystem skills |
-| [**galaxy-mvp**](https://github.com/honeyamn10-source/galaxy-mvp) | Decentralized AI event-detection platform: edge inference, swarm mesh, blockchain, federated learning |
+| [**galaxy-mvp**](https://github.com/honeyamn10-source/galaxy_mvp) | Decentralized AI event-detection platform: edge inference, swarm mesh, blockchain, federated learning |
 | [**quant-lab**](https://github.com/honeyamn10-source/quant-lab) | Self-hosted quant research rig with honest, non-curve-fit backtests |
 | [**pos-retail**](https://github.com/honeyamn10-source/pos-retail) | Self-hosted retail register: cash sales, held carts, live inventory |
 | [**pos**](https://github.com/honeyamn10-source/pos) | Point-of-sale core engine |
@@ -202,6 +202,23 @@ Browser voice-ordering prototype: speech recognition, conversational AI, pickup-
 
 
 
+
+<br/>
+
+## 🙌 Follow & Connect
+
+<div align="center">
+
+<a href="https://github.com/honeyamn10-source?tab=followers"><img src="https://img.shields.io/badge/Follow%20on%20GitHub-8E2DE2?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="mailto:honeyamn10@gmail.com"><img src="https://img.shields.io/badge/Email%20Me-C33764?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+<a href="https://github.com/honeyamn10-source?tab=repositories"><img src="https://img.shields.io/badge/All%20Repositories-1D2B64?style=for-the-badge&logo=github&logoColor=white"/></a>
+
+</div>
+
+<p align="center">
+  Open to collaborations on trading-systems, applied-AI, and self-hosted software. <br/>
+  Every repo is MIT-licensed and built to be self-hosted — no cloud, no vendor lock.
+</p>
 
 ## 📊 Metrics
 
