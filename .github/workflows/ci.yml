@@ -19,7 +19,7 @@ jobs:
           done
       - name: Check for personal emails
         run: |
-          if git log --all --format='%ae' | grep -v 'noreply@users.noreply.github.com' | grep -v 'dependabot\[bot\]' | grep -v '^$' | grep -q .; then
+          if git log --all --format='%ae' | grep -v '@users\.noreply\.github\.com$' | grep -v 'dependabot\[bot\]' | grep -v '^$' | grep -q .; then
             echo "Found personal emails in history"
             exit 1
           fi
