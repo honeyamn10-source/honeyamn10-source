@@ -2,6 +2,19 @@
 
 # Hi, I'm Bittu.
 
+<!-- repo-badges:start -->
+<div align="center">
+
+[![Profile Views](https://komarev.com/ghpvc/?username=honeyamn10-source&style=flat-square&label=Profile+Views)](https://github.com/honeyamn10-source)
+[![Followers](https://img.shields.io/github/followers/honeyamn10-source?style=flat-square&logo=github&label=Followers)](https://github.com/honeyamn10-source?tab=followers)
+[![Stars](https://img.shields.io/github/stars/honeyamn10-source?affiliations=OWNER&style=flat-square&logo=github&label=Stars)](https://github.com/honeyamn10-source?tab=repositories)
+
+[Profile](https://github.com/honeyamn10-source) · [Repositories](https://github.com/honeyamn10-source?tab=repositories) · [Stars](https://github.com/honeyamn10-source?tab=stars)
+
+</div>
+<!-- repo-badges:end -->
+
+
 I build developer tools, business applications and experiments in applied AI. My repositories explore how software can make everyday work clearer: checking configuration, managing operations and turning research ideas into repeatable tests.
 
 [Explore my portfolio](https://honeyamn10-source.github.io/honeyamn10-source/) · [Browse repositories](https://github.com/honeyamn10-source?tab=repositories)
