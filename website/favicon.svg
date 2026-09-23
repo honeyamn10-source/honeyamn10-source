@@ -1,4 +1,1 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="14" fill="#22d3ee"/>
-  <text x="32" y="45" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="36" font-weight="700" fill="#0b0e14" text-anchor="middle">H</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="32" fill="#183f36"/><text x="12" y="43" font-size="33" font-family="Georgia" font-style="italic" fill="#f3f0e6">bs.</text></svg>
