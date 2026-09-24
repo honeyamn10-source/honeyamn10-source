@@ -14,6 +14,18 @@
 </div>
 <!-- repo-badges:end -->
 
+<!-- professional-meta:start -->
+<div align="center">
+
+[![ci](https://github.com/honeyamn10-source/honeyamn10-source/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/honeyamn10-source/honeyamn10-source/actions/workflows/ci.yml) [![pages](https://github.com/honeyamn10-source/honeyamn10-source/actions/workflows/pages.yml/badge.svg?branch=main)](https://github.com/honeyamn10-source/honeyamn10-source/actions/workflows/pages.yml)
+
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-181717?style=flat-square&logo=github&logoColor=white)
+
+[Portfolio](PORTFOLIO.md) · [Profile Setup](PROFILE_SETUP.md) · [Maintenance](REPOSITORY_MAINTENANCE.md) · [Website Report](WEBSITE_PORTFOLIO_REPORT.md)
+
+</div>
+<!-- professional-meta:end -->
+
 
 I build developer tools, business applications and experiments in applied AI. My repositories explore how software can make everyday work clearer: checking configuration, managing operations and turning research ideas into repeatable tests.
 
