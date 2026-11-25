@@ -21,7 +21,7 @@
 
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white) ![GitHub Pages](https://img.shields.io/badge/GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-181717?style=flat-square&logo=github&logoColor=white)
 
-[Portfolio](PORTFOLIO.md) · [Profile Setup](PROFILE_SETUP.md) · [Maintenance](REPOSITORY_MAINTENANCE.md) · [Website Report](WEBSITE_PORTFOLIO_REPORT.md)
+[Portfolio](PORTFOLIO.md) · [Profile Setup](PROFILE_SETUP.md) · [Maintenance](REPOSITORY_MAINTENANCE.md) · [Website Report](WEBSITE_PORTFOLIO_REPORT.md) · [Security](SECURITY.md) · [Contributing](CONTRIBUTING.md)
 
 </div>
 <!-- professional-meta:end -->
