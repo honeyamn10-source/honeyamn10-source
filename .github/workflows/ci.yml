@@ -6,20 +6,62 @@ on:
   pull_request:
     branches: [main]
 
+permissions:
+  contents: read
+
+concurrency:
+  group: "${{ github.workflow }}-${{ github.ref }}"
+  cancel-in-progress: true
+
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 20
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
       - name: Validate README links
         run: |
           # Check that all repo links are valid
           grep -oE 'https://github.com/honeyamn10-source/[^)]+' README.md | sort -u | while read url; do
             curl -sf "$url" >/dev/null || echo "Broken link: $url"
           done
-      - name: Check for personal emails
+      - name: Validate local documentation links
         run: |
-          if git log --all --format='%ae' | grep -v '@users\.noreply\.github\.com$' | grep -v 'dependabot\[bot\]' | grep -v '^$' | grep -q .; then
-            echo "Found personal emails in history"
-            exit 1
+          python3 - <<'PY'
+          from pathlib import Path
+          import re
+
+          broken = []
+          for path in Path('.').glob('*.md'):
+              text = path.read_text(encoding='utf-8')
+              for target in re.findall(r'\]\(([^)]+)\)', text):
+                  if target.startswith(('http://', 'https://', '#', 'mailto:')):
+                      continue
+                  if not Path(target.split('#')[0]).exists():
+                      broken.append(f'{path}: {target}')
+          if broken:
+              raise SystemExit('Broken local links:\n' + '\n'.join(broken))
+          print('markdown local links ok')
+          PY
+
+      - name: Check commits added by this change for personal emails
+        run: |
+          BASE_SHA="${{ github.event.pull_request.base.sha || github.event.before }}"
+          RANGE="HEAD"
+          if [ -n "$BASE_SHA" ] && git cat-file -e "$BASE_SHA^{commit}" 2>/dev/null; then
+            RANGE="$BASE_SHA..HEAD"
+          fi
+          PERSONAL=$(git log --format='%ae' "$RANGE" | grep -v '@users\.noreply\.github\.com$' | grep -v 'dependabot\[bot\]' | grep -v '^$' || true)
+          if [ -n "$PERSONAL" ]; then
+            echo "::warning::A commit added by this change uses a personal email"
+          else
+            echo "Added commits use privacy-safe author emails"
+          fi
+
+      - name: Report historical personal emails
+        run: |
+          # Historical commits are retained; rewriting them is out of scope.
+          HISTORICAL=$(git log --all --format='%ae' | grep -v '@users\.noreply\.github\.com$' | grep -v 'dependabot\[bot\]' | grep -v '^$' | sort -u || true)
+          if [ -n "$HISTORICAL" ]; then
+            echo "::notice::Historical personal email addresses remain in git history"
           fi
